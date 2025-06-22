@@ -7,8 +7,8 @@ import wikipedia
 from vosk import Model, KaldiRecognizer
 import pyaudio
 
-wikipedia.set_lang("ru")  # Язык Wikipedia
-MODEL_PATH = "vosk-model-small-ru-0.22"  # Путь к модели Vosk
+wikipedia.set_lang("ru")  
+MODEL_PATH = "vosk-model-small-ru-0.22"  
 DOG_API_URL = "https://dog.ceo/api/breeds/image/random"
 
 
